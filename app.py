@@ -33,5 +33,3 @@ print(weight_kg, 'kg ')
 #####
 #####
 #####
-
-C:\Users\annah\PycharmProjects\HelloWorld
