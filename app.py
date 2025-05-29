@@ -46,14 +46,30 @@
 ######
 ######
 ######
-first = 'John'
-last = 'Smith'
-message = first + ' [' + last + '] is a coder'
-print(message)
+#first = 'John'
+#last = 'Smith'
+#message = first + ' [' + last + '] is a coder'
+#print(message)
 # concatenating strings is fun but let's use formatted strings for cleaner code
-msg = f'{first} [{last}] is a coder'
+#msg = f'{first} [{last}] is a coder'
 # formatted string has curly brackets for placeholders for variables
-print(msg)
+#print(msg)
+course = 'Python for Beginners'
+print(len(course)) #printing the length of the characters in the string
+# len is a gen purpose function for counting
+#print(course.upper()) #this function is a method (upper method)
+# creates a new string and prints it
+#print(course) #the original is preserved
+#print(course.lower()) #new method for lowercase
+print(course.find('P')) #prints the result of the method for finding the index of P
+#print(course.find('p'))# returns an error because there is no lowercase p - case-sensitive!
+print(course.find('Beginners')) #returns 11 because the string begins with character B on index 11
+# replace
+print(course.replace('Beginners', 'Absolute Beginners')) # replace method is also case-sensitive but there is no error
+print(course.replace('n','l')) # replace method will replace ALL characters with the new string. teehee Pythol for Begillers
+#check to see if the string is in a variable - Boolean
+print('Python' in course) #True
+print('python' in course) #False
 ######
 ######
 ######
