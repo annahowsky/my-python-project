@@ -27,9 +27,42 @@
 #age = 2025 - int(birth_year)
 #print(type(age))
 #print(age)
-weight_lbs = input("Enter your weight in lbs: ")
-weight_kg = int(weight_lbs) * 0.45359237
-print(weight_kg, 'kg ')
+#weight_lbs = input("Enter your weight in lbs: ")
+#weight_kg = int(weight_lbs) * 0.45359237
+#print(weight_kg, 'kg ')
 #####
 #####
 #####
+# IF STATEMENTS
+#is_hot = False
+#is_cold = False
+#if is_hot:
+#    print("It's a hot day.")
+#    print("Drink plenty of water!")
+#else if
+#elif is_cold:
+#    print("It's a cold day.")
+#    print("Wear warm clothes.")
+#else:
+#    print("It's a lovely day.")
+#print("Enjoy your day.")
+#### Credit exercise
+price = 1000000
+amount_good = price*.1
+amount_else = price*.2
+credit_good = False
+
+if credit_good:
+    print("Your down payment is " + f"${amount_good:,.0f}.")
+else:
+    print("Your down payment is " + f"${amount_else:,.0f}.")
+####
+####
+####
+#the other solution
+has_good_credit = True
+if has_good_credit:
+    down_payment = 0.1* price
+else:
+    down_payment = 0.2* price
+print(f"Down payment is ${down_payment}")
