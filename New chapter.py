@@ -44,11 +44,11 @@
 #####
 #exercise for weight conversion
 weight = int(input("Enter your Weight: "))
-l_or_k = input("Lbs or kg: ")
-if l_or_k.lower() == "lbs":
+units = input("Lbs or kg: ")
+if units.lower() == "lbs":
     k_weight = (weight)*0.453592
     print(f"Your weight is {k_weight} kg.")
-elif l_or_k.lower() == "kg":
+elif units.lower() == "kg":
     l_weight = (weight)/0.453592
     print(f"Your weight is {l_weight} lbs.")
 # the responses are case sensitive..... so we use a method to lowercase all use input.
